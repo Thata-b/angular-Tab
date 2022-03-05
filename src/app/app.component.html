@@ -1,0 +1,15 @@
+<app-navbar><hello name="{{ name }}"></hello>  </app-navbar> 
+
+
+  <a class="nav-link" [routerLinkActive]="['active']"  aria-current="page" 
+  [routerLink]="['/']"> HOME </a>
+/
+  <a class="nav-link" [routerLinkActive]="['active']" aria-current="page" 
+  [routerLink]="['/eu']">SOBRE MIM</a>
+/
+<a class="nav-link" [routerLinkActive]="['active']" aria-current="page" 
+[routerLink]="['/tabuada']">TABUADA</a>
+
+<hr/>
+
+<router-outlet></router-outlet>
